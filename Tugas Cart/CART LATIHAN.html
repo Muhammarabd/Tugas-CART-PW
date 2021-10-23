@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css">
+    <title>Document</title>
+</head>
+<body>
+    <header style="background-color: burlywood;">
+        <nav style="display: flex; align-items: center; padding: 10px; border-bottom: 1px solid black" >
+            <ul style="margin-right: 50px; display: flex; list-style-type: none; gap: 10px">
+                <li>
+                  <i class="bi bi-square-fill"></i>
+                  <a href="">Site Name</a>
+                </li>
+            </ul>
+            <ul style="display: flex; list-style-type: none; gap: 10px">
+                <li>
+                  <a href="/">Category 1</a> |
+                </li>
+                <li>
+                  <a href="/events">Category 2</a> |
+                </li>
+                <li>
+                  <a href="/contact">Category 3</a>
+                </li>
+              </ul>
+              <ul style="margin-left: auto; display: flex; align-items: center; list-style-type: none; gap: 10px">
+                <li>
+                  <i class="bi bi-search"></i>
+                </li>
+                <li class="cart" style="display: flex; gap: 10px; align-items: center">
+                  <i class="bi bi-cart-fill"></i>
+                  <p>Cart (1)</p>
+                </li>
+              </ul>
+        </nav>
+    </header>
+        <main style="height: 450px; display: flex; justify-content: space-between;">
+          <div style="display: flex; align-items: center; justify-content: space-between; width: 95%;">
+            <div>
+              <h1>Your Cart</h1>
+                  <table style="border-collapse: collapse; width: 500px; height: 200px;">
+                      <thead>
+                          <tr>
+                              <th style="border-top: 1px solid black; border-bottom: 1px solid black;" >Item</th>
+                              <th style="border-top: 1px solid black; border-bottom: 1px solid black;" >Price</th>
+                              <th style="border-top: 1px solid black; border-bottom: 1px solid black;" >Quantity</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <tr>
+                              <td align="center"><img src="all photos/index.jpg"></td>
+                              <td align="center">$20.00</td>
+                              <td align="center"><input type="number"></td>
+                          </tr>
+                      </tbody>
+                      <tfoot>
+                          <tr>
+                              <td colspan="3" align="right" style="padding: 10px; border-top: 1px solid grey;"><b>Subtotal $20.00</b></td>
+                          </tr>
+                      </tfoot>
+                  </table>
+            </div>
+            
+            <div style="width: 300px; height: 300px; background-color: burlywood; padding: 10px;">
+              <h2>Summary ( 1 item )</h2>
+              <table style="width: 50px; padding-left: 10px 0; border-collapse: collapse;margin-left: 50px;">
+              <tr style="padding: 30px 0">
+                <td>Subtotal</td>
+                <td align="right">$20.00</td>
+              </tr>
+              <tr style="padding: 30px 0">
+                <td>Shipping</td>
+                <td align="right">$2.20</td>
+              </tr>
+              <tr style="padding: 30px 0">
+                <td>Est. Taxes</td>
+                <td align="right">$1.40</td>
+              </tr>
+              <tr style="padding: 10px 0">
+                <td style="border-top: 2px solid white; padding-left: 10px; padding-top: 10px">Total</td>
+                <td style="border-top: 2px solid white; text-align: right; font-weight: bolder">$23.60</td>
+              </tr>
+              </table>
+            </div>
+        </main>
+      <footer style="margin-top: 100px; border-top: 1px solid black; padding: 20px; display: grid; gap: 10px">
+        <div class="baris" style="display: flex; gap: 10px">
+          <a href="">Site Name</a>
+          <a href="">Category X</a> | <a href="">Category Y</a> |
+          <a href="">Category Z</a>
+          <a style="margin-left: auto" href="">Stay In Touch! Join our Newslatter.</a>
+        </div>
+        <div class="baris" style="display: flex; gap: 5px">
+          <img src="all photos/verified-by-visa-logo-png-0.png" width="50px">
+          <img src="all photos/mastercard-logo-png-transparent-svg-vector-bie-supply-0.png" width="50px">
+          <img src="all photos/kisspng-american-express-credit-card-payment-card-logo-american-express-logo-5a7474de2a76d9.7608031015175815341739.jpg" width="50px">
+          <div class="input-subscribe" style="display: flex; align-items: center; margin-left: auto; font-weight: bolder">
+            <input style="font-weight: bolder; height: 20px" type="text" placeholder="Enter Email" />
+            <p style="background-color: rgb(131, 126, 126)">Subscribe</p>
+          </div>
+        </div>
+      </footer>
+</body>
+</html>
